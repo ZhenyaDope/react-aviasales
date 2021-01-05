@@ -1,0 +1,29 @@
+.FilterGroup {
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #dfe5ec;
+  background: #fff;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.btn {
+  letter-spacing: 1px;
+  width: 50%;
+  padding: 20px;
+  border: none;
+  font-size: 12px;
+  background: #ffffff;
+  outline: none;
+
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.active {
+  background: #2196f3;
+  color: #fff;
+}

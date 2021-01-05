@@ -1,0 +1,7 @@
+.Main {
+  /* background: #333333; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}

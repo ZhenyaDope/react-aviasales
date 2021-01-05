@@ -1,0 +1,44 @@
+.FilterTransfer {
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.FilterTransfer__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  padding: 20px 20px 10px 20px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.FilterTransfer__list {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.FilterTransfer__list_item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+.FilterTransfer__list_item:last-child {
+}
+.FilterTransfer__list_item:hover {
+  background: #f1fcff;
+}
+.FilterTransfer__list_item label,
+.FilterTransfer__list_item input:hover {
+  cursor: pointer;
+}
+
+.FilterTransfer__list_item label {
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.FilterTransfer__list_item input {
+  height: 15px;
+}

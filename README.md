@@ -1,3 +1,17 @@
+# Посмотреть демо-версию
+
+Демо-версия приложения по ссылке - https://zhenyadope.github.io/react-aviasales/index.html
+
+# Задачи
+
+Необходимо реализовать клиент, который будет получать случайно сгенерированные билеты от сервера и отрисует интерфейс согласно макету в Figma . Достаточно будет отрендерить 5 первых билетов соотвествующих выбранным фильрам и сортировки. Без перезагрузки страницы.
+
+Используй React
+Используй TS или JS
+Работоспособность в актуальной версии Google Chrome
+
+Макет - https://www.figma.com/file/4fQe1lEbo4DARjvNtaU0uJ/Aviasales-test-task
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

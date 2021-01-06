@@ -20,7 +20,7 @@ const FilterTransfer = (props) => {
     const {htmlFor,id,label, checked} = input
     return (
       <li key={id} className={styles.FilterTransfer__list_item}>
-          <input checked={checked} onClick={()=>props.filterTransfer(id)} id={id} type="checkbox" />
+          <input defaultChecked={checked} onClick={()=>props.filterTransfer(id)} id={id} type="checkbox" />
           <label htmlFor={htmlFor}>{label}</label>
         </li> 
     )

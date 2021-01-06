@@ -39,10 +39,9 @@ function App() {
   // Событие на изменение на филтрации
   useEffect(() => {
     filterTickets(tickets, sortTransfer);
-  }, [sortTransfer]);
+  }, [sortTransfer, tickets]);
 
   // Фильтрация по количеству персадок
-
   const filterTickets = (tickets, filterGroup) => {
     // Добавление поля transfer
     const modTickets = tickets.map((el) => {
@@ -78,11 +77,12 @@ function App() {
       }
     }
 
-    return sortTransfer.all
+    return filterGroup.all
       ? tickets
       : modTickets.filter((el) => arrFilters.includes(el.transfer));
   };
 
+  // Запрос на сервер
   const responseData = async (url) => {
     // Получение ID
     const responseID = await fetch(`${url}search/`);
@@ -141,7 +141,6 @@ function App() {
 
   const visibleTickets = filterTickets(tickets, sortTransfer);
 
-  console.log(visibleTickets);
   return (
     <div className={styles.App}>
       <Header />

@@ -1,6 +1,6 @@
 # Посмотреть демо-версию
 
-Демо-версия приложения по ссылке - https://zhenyadope.github.io/react-aviasales/index.html
+Демо-версия приложения по ссылке - https://zhenyadope.github.io/react-aviasales/
 
 # Задачи
 
